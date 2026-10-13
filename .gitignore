@@ -1,0 +1,29 @@
+__pycache__/
+.env
+SESSION_RESUME.md
+docs/reddit_post.md
+.vercel
+.env*
+SESSION_RESUME.md
+.venv/
+runs/impossible_states/
+.DS_Store
+
+# visitors' choices and words (scripts/export_events.py): never in the public repo
+data/human/
+# private Erowid corpus (written permission, never republished): see exp56 sources
+data/exp56/erowid_dmt/
+
+.venv-qwen/
+runs/larger_qwen*/
+data/crawl_feelings/
+# exp79 training data and adapters: local and pod only, never committed
+runs/exp79/out/
+data/voices/
+data/erowid_deliriant/
+data/psychosis/
+runs/exp79/results_v2/deliriant_plus.json
+# exp92 harvested corpora: Erowid lines, Reddit posts, third-party transcripts. Local only (the repo is public)
+runs/exp92/out/
+# ebook fetcher for local voice data: kept local, not published
+runs/exp79/fetch_voices.py
